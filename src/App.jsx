@@ -1,7 +1,12 @@
 import "./App.css";
+import Homepage from "./pages/Homepage";
 
 function App() {
-  return <>E-Tutor</>;
+  return (
+    <div>
+      <Homepage/>
+    </div>
+  );
 }
 
 export default App;
